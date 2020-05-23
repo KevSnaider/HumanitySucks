@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import com.kevsnaider.humanitysucks.ui.disabled.DisabledActivity;
-import com.kevsnaider.humanitysucks.ui.main.LocalGameActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btn_priv_room, btn_pub_room, btn_local_game;
