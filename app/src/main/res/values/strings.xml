@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Humanity s♥cks</string>
-    <string name="btn_priv_room"> Private room </string>
-    <string name="btn_pub_room"> Public room </string>
-    <string name="btn_local_game"> Local game </string>
+    <string name="btn_priv_room">Private room</string>
+    <string name="btn_pub_room">Public room</string>
+    <string name="btn_local_game">Local game</string>
+    <string name="btn_back">Go back</string>
+    <string name="tv_disabled">This feature is currently disabled due to internal testing, and will not be available until a future version of the app.</string>
 </resources>
