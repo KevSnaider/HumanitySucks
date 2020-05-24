@@ -15,7 +15,7 @@
         android:background="#A6000000"
         android:gravity="center"
         android:padding="25dp"
-        android:text="@string/about_us"
+        android:text="@string/tv_about_us"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

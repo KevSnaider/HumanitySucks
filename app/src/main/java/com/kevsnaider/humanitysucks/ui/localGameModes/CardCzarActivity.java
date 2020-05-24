@@ -27,7 +27,7 @@ public class CardCzarActivity extends AppCompatActivity implements  View.OnClick
         tv_czar_card = findViewById(R.id.tv_czar_card);
         tv_czar_card.setTextSize(22);
         tv_pick_cards = findViewById(R.id.tv_pick_cards);
-        tv_pick_cards.setTextSize(22);
+        tv_pick_cards.setTextSize(17);
 
         btn_new_card = findViewById(R.id.btn_new_card);
         btn_new_card.setOnClickListener(this);

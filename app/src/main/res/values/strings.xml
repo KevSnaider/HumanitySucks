@@ -3,8 +3,6 @@
     <string name="action_about">About us</string>
     <string name="action_rules">Game rules</string>
 
-    <string name="about_us">KevSnaider Apps is project from a Multiplatform Apps Development student\n\nAuthor: KevSnaider\nDeveloper: KevSnaider\nApp version: 0.5.0</string>
-
     <string name="btn_priv_room">Private room</string>
     <string name="btn_pub_room">Public room</string>
     <string name="btn_local_game">Local game</string>
@@ -12,9 +10,15 @@
     <string name="btn_card_czar">Play as Czar</string>
     <string name="btn_card_player">Play as player</string>
     <string name="btn_new_card">Get new card</string>
+    <string name="btn_change_cards">Change all cards</string>
 
     <string name="tv_disabled">This feature is currently disabled due to internal testing, and will not be available until a future version of the app.</string>
-    <string name="tv_czar_card">Click on \"Get new card\" to start the game</string>
+    <string name="tv_czar_card">Click on \"Get new card\" button to start the game</string>
     <string name="tv_pick_cards"></string>
+    <string name="tv_card1"></string>
+    <string name="tv_card2"></string>
+    <string name="tv_card3"></string>
+    <string name="tv_card4"></string>
+    <string name="tv_about_us">KevSnaider Apps is project from a Multiplatform Apps Development student\n\nAuthor: KevSnaider\nDeveloper: KevSnaider\nApp version: 1.0.0</string>
     <string name="tv_rules">You can check the rules of the game at the following link: <a href="https://kevsnaiderapps.000webhostapp.com/rules/en">https://kevsnaiderapps.000webhostapp.com/rules/en</a></string>
 </resources>
