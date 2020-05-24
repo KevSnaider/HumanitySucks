@@ -14,7 +14,7 @@
     <string name="btn_new_card">Get new card</string>
 
     <string name="tv_disabled">This feature is currently disabled due to internal testing, and will not be available until a future version of the app.</string>
-    <string name="tv_czar_card">Click on "Get new card" to start the game</string>
+    <string name="tv_czar_card">Click on \"Get new card\" to start the game</string>
     <string name="tv_pick_cards"></string>
     <string name="tv_rules">You can check the rules of the game at the following link: <a href="https://kevsnaiderapps.000webhostapp.com/rules/en">https://kevsnaiderapps.000webhostapp.com/rules/en</a></string>
 </resources>
