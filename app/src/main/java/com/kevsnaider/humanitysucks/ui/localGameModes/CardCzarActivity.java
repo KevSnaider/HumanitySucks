@@ -60,27 +60,36 @@ public class CardCzarActivity extends AppCompatActivity implements  View.OnClick
     private void changePickValue(int card) {
         if (user_locale.equals("es")) {
             if (card == 5) {
-            tv_pick_cards.setText("Pick (3)");
+            tv_pick_cards.setText("PICK (3)");
             } else if (card == 0 || card == 1 || card == 2 || card == 3) {
-                tv_pick_cards.setText("Pick (2)");
-            } else {
-                tv_pick_cards.setText("Pick (1)");
+                tv_pick_cards.setText("PICK (2)");
+            } else if (card == 8 || card == 10 || card == 11 || card == 12 || card == 15 ||
+                       card == 16 || card == 18) {
+                tv_pick_cards.setText("PICK (1)");
+            } else  {
+                tv_pick_cards.setText("");
             }
         } else if (user_locale.equals("ca")) {
             if (card == 5) {
-                tv_pick_cards.setText("Pick (3)");
+                tv_pick_cards.setText("PICK (3)");
             } else if (card == 0 || card == 1 || card == 2 || card == 3) {
-                tv_pick_cards.setText("Pick (2)");
-            } else {
-                tv_pick_cards.setText("Pick (1)");
+                tv_pick_cards.setText("PICK (2)");
+            } else if (card == 8 || card == 10 || card == 11 || card == 12 || card == 15 ||
+                       card == 16 || card == 18) {
+                tv_pick_cards.setText("PICK (1)");
+            } else  {
+                tv_pick_cards.setText("");
             }
         } else {
             if (card == 19) {
-                tv_pick_cards.setText("Pick (3)");
+                tv_pick_cards.setText("PICK (3)");
             } else if (card == 5 || card == 7 || card == 11 || card == 14) {
-                tv_pick_cards.setText("Pick (2)");
-            } else {
-                tv_pick_cards.setText("Pick (1)");
+                tv_pick_cards.setText("PICK (2)");
+            } else if (card == 0 || card == 1 || card == 3 || card == 4 || card == 6 || card == 8 ||
+                       card == 10 || card == 12 || card == 13 || card == 15 || card == 16 || card == 18) {
+                tv_pick_cards.setText("PICK (1)");
+            } else  {
+                tv_pick_cards.setText("");
             }
         }
     }

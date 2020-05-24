@@ -1,11 +1,19 @@
 package com.kevsnaider.humanitysucks;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import com.kevsnaider.humanitysucks.ui.disabled.DisabledActivity;
+import com.kevsnaider.humanitysucks.ui.main.AboutActivity;
+import com.kevsnaider.humanitysucks.ui.main.RulesActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.ContextCompat;
+
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import com.kevsnaider.humanitysucks.ui.disabled.DisabledActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btn_priv_room, btn_pub_room, btn_local_game;
@@ -14,7 +22,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_activity);
+        setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         btn_priv_room = findViewById(R.id.btn_priv_room);
         btn_priv_room.setOnClickListener(this);
@@ -33,5 +43,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent = new Intent(this, LocalGameActivity.class);
             startActivity(intent);
         }
+    }@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if(id == R.id.action_rules) {
+            intent = new Intent(this, RulesActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.action_about) {
+            intent = new Intent(this, AboutActivity.class);
+            startActivity(intent);
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 }

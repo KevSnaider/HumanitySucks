@@ -36,15 +36,35 @@
 
     <TextView
         android:id="@+id/tv_pick_cards"
-        android:layout_width="250dp"
+        android:layout_width="110dp"
         android:layout_height="30dp"
-        android:paddingRight="5dp"
-        android:gravity="right"
         android:background="#D2000000"
+        android:gravity="right"
+        android:paddingRight="5dp"
         android:text="@string/tv_pick_cards"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/tv_czar_card"
-        app:layout_constraintStart_toStartOf="@+id/tv_czar_card"
         app:layout_constraintTop_toBottomOf="@+id/tv_czar_card" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:background="#D2000000"
+        android:gravity="center_vertical"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_czar_card" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="#D2000000"
+        app:layout_constraintStart_toStartOf="@+id/tv_czar_card"
+        app:layout_constraintTop_toBottomOf="@+id/tv_czar_card"
+        app:srcCompat="@drawable/ic_logo_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
