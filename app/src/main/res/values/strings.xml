@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">Humanity s♥cks</string>
+    <string name="app_name">Humanity sucks</string>
     <string name="btn_priv_room">Private room</string>
     <string name="btn_pub_room">Public room</string>
     <string name="btn_local_game">Local game</string>
     <string name="btn_back">Go back</string>
     <string name="btn_card_czar">Play as card Czar</string>
     <string name="btn_card_player">Play as card player</string>
+    <string name="btn_new_card">Get new card</string>
     <string name="tv_disabled">This feature is currently disabled due to internal testing, and will not be available until a future version of the app.</string>
+    <string name="tv_czar_card">Click on "Get new card" to start the game</string>
+    <string name="tv_pick_cards"></string>
 </resources>

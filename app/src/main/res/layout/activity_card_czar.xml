@@ -4,6 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/app_background"
     tools:context=".ui.localGameModes.CardCzarActivity">
+
+    <Button
+        android:id="@+id/btn_new_card"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/round_shape_button"
+        android:text="@string/btn_new_card"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pick_cards" />
+
+    <TextView
+        android:id="@+id/tv_czar_card"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:paddingTop="15dp"
+        android:gravity="center_horizontal"
+        android:background="#D2000000"
+        android:text="@string/tv_czar_card"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btn_new_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_pick_cards"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:paddingRight="5dp"
+        android:gravity="right"
+        android:background="#D2000000"
+        android:text="@string/tv_pick_cards"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/tv_czar_card"
+        app:layout_constraintStart_toStartOf="@+id/tv_czar_card"
+        app:layout_constraintTop_toBottomOf="@+id/tv_czar_card" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
