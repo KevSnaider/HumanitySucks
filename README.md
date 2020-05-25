@@ -6,8 +6,8 @@ This is just a final course project, and are not related to the Cards Against Hu
 In the moment this project was proposed, the following text was in the [official Cards Against Humanity web](https://cardsagainsthumanity.com/) (in the FAQ's):
 
 ```
-* - **Do I have permission to make some crappy Cards Against**
-  **Humanity thing like an all?**
+* - **Do I have permission to make some crappy Cards Against
+  Humanity thing like an all?**
   
      Cards Against Humanity is available under a BY-NC-SA 2.0 Creative
      Commons license. That means you can use our content to make
