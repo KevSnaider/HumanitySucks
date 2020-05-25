@@ -10,7 +10,7 @@
     <string name="btn_new_card">Obtener nueva carta</string>
     <string name="btn_priv_room">Sala privada</string>
     <string name="btn_pub_room">Sala pública</string>
-    <string name="tv_about_us">KevSnaiderApps es un proyecto de un estudiante de  Desarrollo de Aplicaciones Multiplataforma\\n\\nAutor: KevSnaider\\nDesarrollador: KevSnaider\\nApp version: 1.0.0</string>
+    <string name="tv_about_us">KevSnaider Apps es un proyecto de un estudiante de  Desarrollo de Aplicaciones Multiplataforma\n\nAutor: KevSnaider\nDesarrollador: KevSnaider\nApp version: 1.0.0</string>
     <string name="tv_czar_card">Haz clic en el botón \"Obtener nueva carta\" para comenzar el juego</string>
     <string name="tv_disabled">Esta característica está actualmente desactivada debido a pruebas internas, y no estará disponible hasta una futura versión de la aplicación.</string>
     <string name="tv_rules">Puede consultar las reglas del juego en el siguiente enlace: <a href="https://kevsnaiderapps.000webhostapp.com/rules/es">https://kevsnaiderapps.000webhostapp.com/rules/es</a></string>

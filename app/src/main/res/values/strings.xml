@@ -19,6 +19,6 @@
     <string name="tv_card2" translatable="false"></string>
     <string name="tv_card3" translatable="false"></string>
     <string name="tv_card4" translatable="false"></string>
-    <string name="tv_about_us">KevSnaiderApps is project from a Multiplatform Apps Development student  Author: KevSnaider Developer: KevSnaider App version: 1.0.0</string>
+    <string name="tv_about_us">KevSnaider Apps is project from a Multiplatform Apps Development student\n\nAuthor: KevSnaider\nDeveloper: KevSnaider\nApp version: 1.0.0</string>
     <string name="tv_rules">You can check the rules of the game at the following link: <a href="https://kevsnaiderapps.000webhostapp.com/rules/en">https://kevsnaiderapps.000webhostapp.com/rules/en</a></string>
 </resources>
