@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_about">Sobre nosaltres</string>
+    <string name="action_rules">Reglas del joc</string>
+    <string name="btn_back">Tornar</string>
+    <string name="btn_card_czar">Jugar com a Tsar</string>
+    <string name="btn_card_player">Jugar com a jugador</string>
+    <string name="btn_change_cards">Canviar totes les cartes</string>
+    <string name="btn_local_game">Joc en local</string>
+    <string name="btn_new_card">" Obtenir nova carta"</string>
+    <string name="btn_priv_room">Sala privada</string>
+    <string name="btn_pub_room">Sala pública</string>
+    <string name="tv_about_us">KevSnaiderApps es un projecte d\'un estudiant de  Desenvolupament d\'Aplicacions Multiplataforma\\n\\nAutor: KevSnaider\\mDesenvolupador: KevSnaider\\nApp version: 1.0.0</string>
+    <string name="tv_czar_card">Fes clic en el botó \"Obtenir nova carta\" per a començar el joc</string>
+    <string name="tv_disabled">" Aquesta característica està actualment desactivada a causa de proves internes, i no estarà disponible fins a una futura versió de l'aplicació."</string>
+    <string name="tv_rules">Pot consultar les regles del joc en el següent enllaç: <a href="https://kevsnaiderapps.000webhostapp.com/rules/ca">https://kevsnaiderapps.000webhostapp.com/rules/ca</a></string>
+</resources>
