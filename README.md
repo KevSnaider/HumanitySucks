@@ -6,11 +6,12 @@ In the moment this project was proposed, the following text was in the official 
 ```
 * - Do I have permission to make some crappy Cards Against
   Humanity thing like an all?
+  
      Cards Against Humanity is available under a BY-NC-SA 2.0 Creative
      Commons license. That means you can use our content to make
      whatever, but you have to give us credit, you can't profit from the use of
      out content (this mean ad revenue is not allowed), and you have to
-     share whatever you make in the same way we share it (tjhis means you
+     share whatever you make in the same way we share it (this means you
      can't submit our content to any app store). We own the name "Cards
      Against Humanity", so you have to call your crappy thing something else.
 ```
