@@ -3,7 +3,7 @@ This is a card game based in the popular card game Cards Against Humanity.
 
 This is just a final course project, and are not related to the Cards Against Humanity owners.
 
-In the moment this project was proposed, the following text was in the official Cards Against Humanit web (in the FAQ's):
+In the moment this project was proposed, the following text was in the [official Cards Against Humanity web](https://cardsagainsthumanity.com/) (in the FAQ's):
 
 ```
 * - Do I have permission to make some crappy Cards Against
