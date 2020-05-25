@@ -28,4 +28,4 @@ This project is licensed under the BY-NC-SA 2.0 Creative Commons license
 ## Acknowledgments
 
 * Cards Against Humanity owners/creators for do this awesome game
-* Teachers for allowing me to make this game my end-of-year project 
+* Teachers for allowing me to make this game my final course project 
