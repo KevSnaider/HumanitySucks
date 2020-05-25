@@ -19,7 +19,7 @@ In the moment this project was proposed, the following text was in the official 
 ## Authors
 
 * **Cards Against Humanity** - *Owners/creators of the game* - [CAH](https://cardsagainsthumanity.com/)
-* **Kevin Snaider** - [KevSnaider](https://github.com/KevSnaider)
+* **KevSnaider** - *App developer* - [KevSnaider](https://github.com/KevSnaider)
 
 ## License
 
