@@ -20,7 +20,6 @@ In the moment this project was proposed, the following text was in the official 
 
 * **Cards Against Humanity** - *Owners/creators of the game* - [CAH](https://cardsagainsthumanity.com/)
 * **Kevin Snaider** - [KevSnaider](https://github.com/KevSnaider)
-* 
 
 ## License
 
